@@ -54,6 +54,74 @@ footer, header, hgroup, menu, nav, section {
 * {
   box-sizing: border-box;
 }
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/fonts.scss ***!
+  \*************************************************************************/
+@font-face {
+  font-family: "Helios";
+  src: local("Helios Extra Thin"), local("Helios-Extra-Thin"),
+    url(87f3273461dc04a2c602.woff2) format("woff2"),
+    url(879b9c60f38c77f8e782.woff) format("woff"),
+    url(b1e0be666a9a931ac2f9.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url(a25806274237d06e00a6.woff2) format("woff2"),
+    url(31012f9b3e3da44f87e8.woff) format("woff"),
+    url(25e40da956314b12d333.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light"), local("Open-Sans-Light"),
+    url(2091bdb896d65876907a.woff2) format("woff2"),
+    url(118737856e2ad919605c.woff) format("woff"),
+    url(e341725894bf01be3988.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Regular"), local("Open-Sans-Regular"),
+    url(9ffed65db527232e9a9d.woff2) format("woff2"),
+    url(74fbb1368a3029d9e39a.woff) format("woff"),
+    url(56f1eef4f0e56644f3cc.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Semi Bold"), local("Open-Sans-Semi-Bold"),
+    url(117298bec81d6c8250df.woff2) format("woff2"),
+    url(1232ba75e12556959958.woff) format("woff"),
+    url(dd4e8cb6bdf262547359.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold"), local("Open-Sans-Bold"),
+    url(bddf0720f99a7ee7f84e.woff2) format("woff2"),
+    url(030f6a69f8156aef8382.woff) format("woff"),
+    url(73945936653e6516f966.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/settings.scss ***!
+  \****************************************************************************/
+body {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: black;
+}
+
 /*!****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss ***!
   \****************************************************************************************************************/
