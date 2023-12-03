@@ -1,0 +1,31 @@
+.header {
+  font-family: "Open Sans";
+  font-weight: 300;
+  padding: 5px 0 5px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo--img {
+    height: 40px;
+  }
+  &__localisation {
+    display: none;
+  }
+
+  &__contact {
+    display: none;
+  }
+
+  &__menu {
+    width: 40px;
+    height: 40px;
+    background: url("../images/header__menu--enter.svg");
+  }
+}
