@@ -1,0 +1,71 @@
+/* media container*/
+@media (min-width: 1088px) {
+  .container {
+    width: 80vw;
+  }
+}
+
+/* media header*/
+@media (min-width: 768px) {
+  .header {
+    padding: 10px 0 25px 0;
+    &__logo--img {
+      height: 97px;
+    }
+    &__localisation {
+      font-size: 1.125rem;
+      display: block;
+      position: relative;
+      padding-left: 50px;
+      margin-left: 120px;
+      &::before {
+        content: "";
+        display: block;
+        height: 40px;
+        width: 40px;
+        background: url("../images/header__localisation.svg");
+        position: absolute;
+        left: 0;
+        top: -50%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1188px) {
+  .header {
+    &__localisation {
+      margin-left: 170px;
+    }
+    &__contact {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 1.125rem;
+      margin-right: 75px;
+    }
+    &__contact--text {
+      position: relative;
+      &::after {
+        content: "Заказать звонок";
+        position: absolute;
+        width: 170px;
+        top: 150%;
+        left: -10%;
+        color: $brown-color;
+        font-family: Open Sans;
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+    }
+    &__contact--email {
+      margin-right: 8px;
+    }
+    &__contact--phone {
+      margin-right: 5px;
+    }
+  }
+}
