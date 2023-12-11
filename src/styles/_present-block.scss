@@ -1,0 +1,27 @@
+.present {
+  padding-top: 85px;
+  background: #fff9ef;
+  text-align: center;
+  .block--header {
+    margin-bottom: 60px;
+  }
+  &__content--icon {
+    margin-left: 24px;
+    margin-bottom: 55px;
+  }
+  &__content--header {
+    color: $brown-color;
+    font-size: 1.5rem;
+    line-height: 2.1875rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  &__content--text {
+    font-size: 1rem;
+  }
+  &__content--elem {
+    margin: 0 auto;
+    max-width: 370px;
+    margin-bottom: 70px;
+  }
+}
