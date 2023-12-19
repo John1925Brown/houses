@@ -1,0 +1,96 @@
+.questions {
+  &__text {
+    line-height: 2.1875rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    max-width: 486px;
+  }
+  .form {
+    input {
+      width: 270px;
+      outline: none;
+      &:focus {
+        border: 2px solid rgb(255, 255, 0);
+        border-radius: 5px;
+      }
+      ::placeholder {
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: #a2a2a2;
+      }
+    }
+    &__name {
+      border: none;
+      border-bottom: 1px solid #000;
+      margin-bottom: 36px;
+    }
+    &__contact {
+      border: none;
+      border-bottom: 1px solid #000;
+      margin-bottom: 70px;
+    }
+    .link__yellow-circle {
+      border: none;
+      background-color: inherit;
+      margin: 0 20px 70px auto;
+      &::after {
+        background: url("../images/arrow__right--black.svg");
+        right: -26px;
+      }
+      &::before {
+        left: -50px;
+      }
+    }
+  }
+  .block--brown-footer {
+    padding-bottom: 50px;
+    .info__header {
+      line-height: 2.1875rem;
+      text-transform: uppercase;
+      padding: 35px 0 10px 0;
+    }
+    .info__elems {
+      div {
+        margin-left: 39px;
+        font-size: 1rem;
+        padding-bottom: 22px;
+        position: relative;
+        &:last-child {
+          padding-bottom: 0;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          background: url("../images/questions__block--map.svg");
+          width: 26px;
+          height: 26px;
+          top: 0;
+          left: -39px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      .info__phone {
+        &::before {
+          background: url("../images/questions__block--phone.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      .info__inst {
+        &::before {
+          background: url("../images/questions__block--inst.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+      .info__email {
+        &::before {
+          background: url("../images/questions__block--email.svg");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
+}
